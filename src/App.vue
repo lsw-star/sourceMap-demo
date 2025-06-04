@@ -4,9 +4,9 @@ import { onMounted } from 'vue'
 
 onMounted(() => {
   let testNum = null
-  // if (testNum.length > 1) {
-  //   console.log("报错了!")
-  // }
+  if (testNum.length > 1) {
+    console.log("报错了!")
+  }
 })
 </script>
 
